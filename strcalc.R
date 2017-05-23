@@ -1,6 +1,7 @@
 
 compute = function(input_string) {
   # Very nice comment
+  # Sufficiently good/better comment
   values = unlist(strsplit(input_string, ' '))
   num0 = as.integer(values[1])
   operator = values[2]
